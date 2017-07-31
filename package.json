@@ -18,8 +18,7 @@
   "deploy": {
     "type": "git",
     "repo": "https://github.com/LanceRabbit/git-test.git",
-    "branch": "master",
-    "dir": ""
+    "branch": "master"
   },
   "homepage": "https://github.com/LanceRabbit/git-test#readme"
 }
