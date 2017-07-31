@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "deploy": "gh-pages-deploy",
-    "clean-source": "rimraf README.md src webroot package.json",
+    "build": "node build",
+    "deploy": "git-directory-deploy --directory _build --branch gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,18 +16,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LanceRabbit/git-test/issues"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "dist",
-    "cname": "LanceRabbit.org",
-    "prep": [
-      "build-sass",
-      "optimize-img"
-    ],
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": false
   },
   "homepage": "https://github.com/LanceRabbit/git-test#readme",
   "devDependencies": {
