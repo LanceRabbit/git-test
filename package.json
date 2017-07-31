@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/LanceRabbit/git-test/issues"
   },
+  "deploy": {
+    "type": "git",
+    "repo": "https://github.com/LanceRabbit/git-test.git", // 需要push的地址
+    "branch": "master", // push分支
+    "dir": "static" // 需要push的目錄
+  },
   "homepage": "https://github.com/LanceRabbit/git-test#readme"
 }
