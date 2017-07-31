@@ -19,7 +19,7 @@
     "type": "git",
     "repo": "https://github.com/LanceRabbit/git-test.git",
     "branch": "master",
-    "dir": "static" 
+    "dir": ""
   },
   "homepage": "https://github.com/LanceRabbit/git-test#readme"
 }
