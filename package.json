@@ -15,10 +15,5 @@
   "bugs": {
     "url": "https://github.com/LanceRabbit/git-test/issues"
   },
-  "deploy": {
-    "type": "git",
-    "repo": "https://github.com/LanceRabbit/git-test.git",
-    "branch": "master"
-  },
   "homepage": "https://github.com/LanceRabbit/git-test#readme"
 }
